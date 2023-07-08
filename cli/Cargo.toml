@@ -4,7 +4,7 @@ version = "0.28.0"
 authors = ["Anchor Maintainers <accounts@200ms.io>"]
 rust-version = "1.60"
 edition = "2021"
-repository = "https://github.com/coral-xyz/anchor"
+repository = "https://github.com/SamstyleGhost/anchor"
 description = "Anchor CLI"
 license = "Apache-2.0"
 
@@ -45,6 +45,6 @@ solana-sdk = ">=1.14, <1.17"
 solang-parser = "=0.2.3"
 syn = { version = "1.0.60", features = ["full", "extra-traits"] }
 tar = "0.4.35"
-tokio = "~1.14.1"
+tokio = "1.28.0"
 toml = "0.5.8"
 walkdir = "2.3.2"
